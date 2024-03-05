@@ -7,17 +7,23 @@
     <meta name="author" content="Tim Grevendonk">
     <title>useless website</title>
 </head>
-<body>
+<body id="container">
     <header>
 
     </header>
     <main>
-        <p>
-            Jippie!
+        <p class="fadeout">
+            click the helium to keep inflated!
         </p>
+        <p id="endMessage">
+            U deflated with <span id="bottlecounter">0</span> bottles clicked.
+        </p>
+        <img id="movingElement" class="bobbing" src="assets/vectors/Red-balloon.svg" alt="baloon">
+        <img id="targetElement" class="shake" src="assets/images/helium.png" alt="helium" onclick="targetElementClicked()">
     </main>
     <footer>
 
     </footer>
+    <script src="\src\js\uselessWebsiteScript.js"></script>
 </body>
 </html>
